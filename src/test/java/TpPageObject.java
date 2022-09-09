@@ -78,7 +78,7 @@ public class TpPageObject {
 
         WebElement loginButton = driver.findElement(By.cssSelector("#nav-link-accountList"));
 
-        Actions actions = new Actions(driver);
+        Actions actions = new Actions(driver);    
         actions.moveToElement(loginButton);
         actions.perform();
 
